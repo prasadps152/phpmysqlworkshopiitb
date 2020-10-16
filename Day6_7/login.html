@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>LOGIN</title>
+    <style>
+      div{
+        text-align: center;
+        background-color: #7FFF00;
+        padding-top: 150px;
+        margin-top: 20px;
+        border-radius: 10px;
+        color: black;
+        zoom: 2.3;
+        -moz-transform: scale(2.0);
+        width: 60%;
+        height: 100%;
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body style="background-color: #00FFFF;  font-family: Open, sans-serif;color: black;text-align: center;">
+    <div id='div'>
+      <form action='login.php' method='POST' style="text-align: center; margin: auto;">
+       <h2>Student Login</h2>
+            <label for="rollno">Roll no:</label><br><br>
+           <input type='text' name='rollno' required style="border-radius: 5px;"><br><br>
+           <label for="password">Password:</label><br><br>
+          <input type='password' name='password' required style="border-radius: 5px;"><br><br>
+       
+            <input type='submit' name='login' value='Login' style="border-radius: 10px;">
+      </form>
+      <form action='index.html' method ='POST'>
+        <input type='submit' name='index' value='Go to Home Page' style="border-radius: 10px; margin: 10px;"><br><br>
+      </form>
+    </div>
+  </body>
+</html>

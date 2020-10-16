@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>RESULT PORTAL</title>
+    <style>
+      div{
+        text-align: center;
+        background-color: #7FFF00;
+        padding: 50px;
+        margin-top: 5px;
+        border-radius: 10px;
+        color: white;
+        zoom: 1.8;
+        -moz-transform: scale(2.0);
+        width: 80%;
+        margin: 0;
+        height: 60%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      button{
+        margin-bottom: 10px;
+        margin-left: 10px;
+        border-radius: 10px;
+        width: 150px;
+      }
+      .student{
+        padding-top:1px;
+      }
+    </style>
+  </head>
+  <body style="background-color: #00FFFF;  font-family: Open, sans-serif;color: black;">
+    <div id="div">
+      
+    <img src="student.jpg"  height=50px width=90px alt="Student" class="student">
+  
+<h1>Welcome to Student Marksheet Portal</h1>
+      <button type="button" onclick="window.location.href='login.html'">Student Login</button><br><br>
+      <button type="button" onclick="window.location.href='registrationpage.php'">Student Registration</button><br><br>
+      <button type="button" onclick="window.location.href='admin.php'">Admin Login</button>
+    </div>
+  </body>
+</html>
